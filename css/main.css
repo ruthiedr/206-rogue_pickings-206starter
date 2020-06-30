@@ -10,6 +10,7 @@ body {
 	justify-content: center;
 	align-items: center;
   flex-flow: row wrap;
+
 }
 
 .container{
@@ -19,6 +20,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+
 }
 
 h1,
@@ -31,6 +33,7 @@ h4 {
 }
 h1 {
 	font-size: 1.875em;
+
 }
 h2 {
     font-size: 1.5em;
@@ -54,10 +57,10 @@ header {
 	border-bottom: 0.1875em solid #77a466;
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	flex-flow: row wrap;
-	
+
 
 }
 
@@ -65,9 +68,11 @@ header h1 {
 
 	margin: 0;
 	padding: 2.375em 0;
+
 }
 header h1 span {
 	color: #77a466;
+
 }
 
 header nav {
@@ -95,10 +100,13 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+
 	flex-flow: row wrap;
+
 }
+
 
 .main-image {
 	height: auto;
@@ -129,8 +137,8 @@ header nav ul li a{
 .section-three {
 	width: 33%;
 	height: auto;
-
 	border-top: 0.0625em solid #eee;
+
 }
 
 .section-one h4 {
