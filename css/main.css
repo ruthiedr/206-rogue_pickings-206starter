@@ -35,6 +35,7 @@ h4 {
 h1 {
 	font-size: 1.875em;
 
+
 }
 h2 {
     font-size: 1.5em;
@@ -66,14 +67,17 @@ header {
 }
 
 header h1 {
-  width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 	margin: 0;
 	padding: 2.375em 0;
 
 }
 header h1 span {
-	color: #77a466;
-
+color: #77a466;
 }
 
 header nav {
@@ -129,13 +133,17 @@ header nav ul li a{
 }
 .main-title h3 {
 	text-align: left;
-	padding: 0.3125em 0;
+	/*padding: 0.3125em 0;*/
 	color: #77a466;
+  padding: 1em 2em;
+
 }
 .main-title p {
-	padding: 0;
+	/*padding: 0;*/
 	font-size: 1em;
 	line-height: 1.5625em;
+  padding: 1em 2em;
+
 }
 
 .section-one,
@@ -146,23 +154,29 @@ header nav ul li a{
 	border-top: 0.0625em solid #eee;
 
 }
-
-.section-one h4 {
-	padding: 10px 0;
+.section-two h4 {
+ padding: 1em 2em;
 }
 
-.section-two {
+/*fix padding*/
+
+.section-one h4 {
+	/*padding: 10px 0;*/
+	padding: 1em 2em;
 
 }
 
 .section-two h4,
 .section-three h4 {
-	padding: 0.625em 1.875em;
+/*padding: 0.625em 1.875em;*/
+padding: 1em 2em;
+
+
 }
 
 .menu {
 	list-style: none;
-	padding: 0;
+	padding: 1em 2em;
 }
 .menu li {
 	padding: 0.625em 0;
