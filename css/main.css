@@ -66,7 +66,7 @@ header {
 
 header h1 {
 
-
+	border-bottom: solid #77a466;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
@@ -192,6 +192,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
   padding: 16px;
+	width:100%
 	border-top: 0.1875em solid #eee;
 	margin: 0 auto;
   flex-flow: row wrap;
@@ -200,9 +201,11 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875em;
+
 }
